@@ -1,0 +1,26 @@
+{
+    "name": "adealer-types",
+    "version": "1.0.4",
+    "description": "A package with types for ADealer projects",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "rm -rf dist && npx tsc -p tsconfig.json",
+        "dev": "tsc --watch",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kyrylo Kumchenko <kirillkumchenko@gmail.com>",
+    "license": "ISC",
+    "files": [
+        "dist",
+        "README.md",
+        "package.json"
+    ],
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}
