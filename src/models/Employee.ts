@@ -42,3 +42,8 @@ export interface IEmployeeAccess {
 export interface IEmployeeRefresh {
     refreshToken: string
 }
+
+export enum EEmployeeRole {
+    EMPLOYEE = 'EMPLOYEE',
+    ADMIN = 'ADMIN',
+}

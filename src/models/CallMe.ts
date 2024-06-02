@@ -59,9 +59,13 @@ export interface ICallMeStatistics {
     all: number
     created: number
     checked: number
+    counts: Array<{
+        date: string
+        calls: number
+    }>
 }
 
 export interface ICallMesGetStatsQuery {
-    timeframe: ETimeframe
+    timeframe?: ETimeframe
     to?: string
 }

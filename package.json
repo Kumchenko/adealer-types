@@ -1,6 +1,6 @@
 {
     "name": "adealer-types",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A package with types for ADealer projects",
     "type": "module",
     "main": "./dist/index.js",

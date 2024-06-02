@@ -92,9 +92,13 @@ export interface IOrderStatistics {
     done: number
     model: string
     component: string
+    counts: Array<{
+        date: string
+        orders: number
+    }>
 }
 
 export interface IOrdersGetStatsQuery {
-    timeframe: ETimeframe
+    timeframe?: ETimeframe
     to?: string
 }

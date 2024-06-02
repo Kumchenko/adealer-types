@@ -9,7 +9,7 @@ export type IPaginated<T extends unknown> = {
 }
 
 export enum ETimeframe {
-    WEEK = 'week',
-    MONTH = 'month',
-    YEAR = 'year',
+    WEEK = 'Week',
+    MONTH = 'Month',
+    YEAR = 'Year',
 }
